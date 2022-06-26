@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background: linear-gradient(to right bottom, #601085, #d342d3); }
+
+html {
+  font-size: 62.5%; }
+
+.heading-primary {
+  color: #fff; }
+  .heading-primary--main {
+    font-family: Montserrat;
+    font-size: 5.85rem;
+    font-weight: 500;
+    letter-spacing: 2.93px; }
+  .heading-primary--sub {
+    font-family: Audiowide;
+    font-size: 10.4rem;
+    line-height: 0.93;
+    letter-spacing: .52rem; }
+
+.heading-secondary {
+  font-family: Audiowide;
+  font-size: 5.35rem;
+  line-height: 1.15;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+.heading-tertiary {
+  font-family: Montserrat;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #fff; }
+
+.heading-fourth {
+  font-family: Montserrat;
+  font-size: 3.35rem;
+  font-weight: bold;
+  line-height: 1.69;
+  letter-spacing: 3.35px;
+  text-align: center;
+  color: #fff; }
+
+.paragraph {
+  font-family: Montserrat;
+  font-size: 26.5px;
+  font-weight: 500;
+  text-align: left;
+  color: #fff; }
+  .paragraph-tac {
+    font-size: 2.1rem;
+    font-weight: normal;
+    line-height: 1.19;
+    text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 3rem; }
+
+.u-margin-bottom-middle {
+  margin-bottom: 5rem; }
+
+.search {
+  position: absolute;
+  right: 20.8rem;
+  top: 3.2rem; }
+  .search--input {
+    width: 29.5rem;
+    height: 3.9rem;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 19.2px;
+    padding-left: 2.6rem;
+    color: #fff;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif; }
+    .search--input::placeholder {
+      color: #fff;
+      font-size: 2.2rem;
+      float: right;
+      margin: .5rem 2.6rem 0 0;
+      font-family: 'Montserrat', sans-serif; }
+    .search--input:focus {
+      outline: 0;
+      caret-shape: bar; }
+  .search--submit {
+    display: none; }
+
+.btn {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 2.75rem;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5rem;
+  padding: 1.6rem 8rem; }
+
+.bg_comps {
+  position: relative;
+  margin: 0 auto;
+  width: 1rem; }
+  .bg_comps .bg_comp {
+    position: absolute; }
+  .bg_comps .bg_comp-1 {
+    left: -160rem;
+    top: 67rem; }
+  .bg_comps .bg_comp-2 {
+    right: -153rem;
+    top: 35rem; }
+
+.grid {
+  width: 140rem;
+  margin: 0 auto;
+  position: relative; }
+
+.flex-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.header {
+  height: 99.7rem;
+  background-size: 100%;
+  padding: 9.7rem 0 0 4.4rem; }
+  .header--logo-box {
+    display: inline-block; }
+  .header .navigation {
+    list-style: none;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 2.2rem;
+    margin-left: 1.3rem; }
+    .header .navigation--li {
+      float: left; }
+    .header .navigation--links {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 4rem 1.7rem 4rem; }
+  .header--social_icons {
+    position: absolute;
+    right: 0;
+    top: 4rem; }
+    .header--social_icons-img {
+      height: 2.8rem;
+      margin-right: 1.1rem; }
+  .header--heading-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 50%); }
+  .header .obj-1 {
+    position: absolute;
+    right: 11.1rem;
+    top: 25rem; }
+
+.section-smart_home {
+  height: 85rem;
+  padding: 2rem; }
+  .section-smart_home--text-box {
+    max-width: 45rem; }
+
+.section-capab--three-blocks-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 140rem;
+  height: 545px;
+  border-radius: 36px;
+  text-align: center;
+  box-shadow: 0px 15px 50px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to bottom, rgba(172, 13, 130, 0.08), rgba(172, 13, 130, 0.08)), linear-gradient(to top, #950e82, rgba(255, 255, 255, 0.2)), linear-gradient(to top, #7c0f81, #fff); }
+  .section-capab--three-blocks-box--1 {
+    max-width: 40rem; }
+  .section-capab--three-blocks-box--2 {
+    max-width: 40rem; }
+  .section-capab--three-blocks-box--3 {
+    max-width: 40rem; }

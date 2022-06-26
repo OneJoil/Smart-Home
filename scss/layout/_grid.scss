@@ -1,0 +1,11 @@
+.grid {
+    width: 140rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

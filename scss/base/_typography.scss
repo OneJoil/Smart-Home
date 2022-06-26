@@ -1,0 +1,61 @@
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Audiowide', sans-serif;
+
+.heading-primary {
+  color: $color-white;
+
+    &--main {
+      font-family: Montserrat;
+      font-size: 5.85rem;
+      font-weight: 500;
+      letter-spacing: 2.93px;
+    }
+
+    &--sub {
+      font-family: Audiowide;
+      font-size: 10.4rem;
+      line-height: 0.93;
+      letter-spacing: .52rem;
+    }
+}
+
+.heading-secondary {
+  font-family: Audiowide;
+  font-size: 5.35rem;
+  line-height: 1.15;
+  color: $color-white;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.heading-tertiary {
+  font-family: Montserrat;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: $color-white;
+}
+
+.heading-fourth {
+  font-family: Montserrat;
+  font-size: 3.35rem;
+  font-weight: bold;
+  line-height: 1.69;
+  letter-spacing: 3.35px;
+  text-align: center;
+  color: $color-white;
+}
+
+.paragraph {
+    font-family: Montserrat;
+    font-size: 26.5px;
+    font-weight: 500;
+    text-align: left;
+    color: $color-white;
+
+    &-tac {
+      font-size: 2.1rem;
+      font-weight: normal;
+      line-height: 1.19;
+      text-align: center;
+    }
+}

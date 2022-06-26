@@ -1,0 +1,14 @@
+{
+  "name": "smart-home",
+  "version": "1.0.0",
+  "description": "Smart Home",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Anessan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

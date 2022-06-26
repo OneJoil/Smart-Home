@@ -1,0 +1,49 @@
+.header {
+    height: 99.7rem;
+    background-size: 100%;
+    padding: 9.7rem 0 0 4.4rem;
+
+    &--logo-box {
+        display: inline-block ;
+    }
+
+    .navigation {
+        list-style: none;
+        display: inline-block;
+        font-family: Montserrat;
+        font-size: 2.2rem;
+        margin-left: 1.3rem;
+        &--li { float: left; }
+        &--links {
+            display: block;
+            color: $color-white;
+            text-decoration: none;
+            margin: 0 4rem 1.7rem 4rem;
+        }
+    }
+
+    &--social_icons {
+        position: absolute;
+        right: 0;
+        top: 4rem;
+
+        &-img {
+            height: 2.8rem;
+            margin-right: 1.1rem;
+        }
+    }
+
+    &--heading-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-125%, 50%);
+    }
+
+    .obj-1 {
+        position: absolute;
+        right: 11.1rem;
+        top: 25rem;
+    }
+
+}

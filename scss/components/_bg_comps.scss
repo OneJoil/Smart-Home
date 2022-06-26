@@ -1,0 +1,19 @@
+.bg_comps {
+    position: relative;
+    margin: 0 auto;
+    width: 1rem;
+
+    .bg_comp {
+        position: absolute;
+    }
+
+    .bg_comp-1 {
+        left: -160rem;
+        top: 67rem;
+    }
+
+    .bg_comp-2 {
+        right: -153rem;
+        top: 35rem;
+    }
+}
